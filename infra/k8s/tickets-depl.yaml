@@ -13,7 +13,7 @@ spec:
         app: tickets
     spec:
       containers:
-      - name: auth
+      - name: tickets
         image: velopace/tickets
         env:
           - name: MONGO_URI
